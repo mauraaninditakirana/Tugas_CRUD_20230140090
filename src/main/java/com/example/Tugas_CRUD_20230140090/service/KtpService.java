@@ -4,7 +4,7 @@ import com.example.Tugas_CRUD_20230140090.dto.KtpDto;
 
 import java.util.List;
 
-public class KtpService {
+public interface KtpService {
     // Fungsi untuk menambah data KTP
     KtpDto createKtp(KtpDto ktpDto);
 
